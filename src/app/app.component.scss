@@ -1,0 +1,14 @@
+.row {
+  margin: 5px 0 5px 0;
+  transition: all 0.2s;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(10px, auto);
+
+  &__box {
+
+  }
+}

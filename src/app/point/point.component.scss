@@ -1,0 +1,12 @@
+.random_position_block {
+  position:absolute;
+  width: 20px;
+  height: 20px;
+  background: #d0ff68;
+  transition: all 9s ease-out;
+  border-radius: 50%;
+}
+.random_position_emoji {
+  position:absolute;
+  font-family: Segoe UI Emoji, serif; font-size: 2em
+}
